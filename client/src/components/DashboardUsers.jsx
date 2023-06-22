@@ -66,13 +66,13 @@ export const DashboardUserCard = ({ data, index }) => {
       </div>
       
       {/* Username */}
-      <p className="text-base text-white w-275 min-w-[160px] text-center">{data.name}</p>
-      <p className="text-base text-white w-275 min-w-[160px] text-center">{data.email}</p>
-      <p className="text-base text-white w-275 min-w-[160px] text-center">{data.email_verified ? "Ya" : "Tidak"}</p>
-      <p className="text-base text-white w-275 min-w-[160px] text-center">{createdAt}</p>
+      <p className="text-xs text-white w-275 min-w-[160px] text-center">{data.name}</p>
+      <p className="text-xs text-white w-275 min-w-[160px] text-center">{data.email}</p>
+      <p className="text-xs text-white w-275 min-w-[160px] text-center">{data.email_verified ? "Ya" : "Tidak"}</p>
+      <p className="text-xs text-white w-275 min-w-[160px] text-center">{createdAt}</p>
       
       <div className="w-275 min-w-[160px] text-center flex items-center justify-center gap-6 relative">
-        <p className="text-base text-white text-center">{data.role}</p>
+        <p className="text-xs text-white text-center">{data.role}</p>
         {
           data._id !== user?.user._id && (
             <motion.p whileTap={{scale : 0.75}} className="text-[10px] font-semibold text-white px-1 bg-ungu rounded-sm hover:shadow-md" onClick={() => setIsUserRoleUpdated(true)}>

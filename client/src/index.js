@@ -15,10 +15,10 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <StateProvider initialState={initialState} reducer={reducer}>
-        <MediaQuery minWidth={768}>
+        <MediaQuery minWidth={480}>
           <App />
         </MediaQuery>
-        <MediaQuery maxWidth={768}>
+        <MediaQuery maxWidth={480}>
           <Announcement />
         </MediaQuery>
       </StateProvider>

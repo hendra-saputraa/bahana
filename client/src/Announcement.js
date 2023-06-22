@@ -11,7 +11,7 @@ const Announcement = () => {
           HALO PENGUNJUNG!
         </p>
         <p className="font-semibold text-sm text-white text-center">
-          Saat ini Bahana hanya dapat diakses oleh pengguna dengan resolusi layar minimal 768px! Jika kamu pengguna mobile, mohon aktifkan tampilan situs desktop terlebih dahulu ya!
+          Saat ini Bahana hanya dapat diakses oleh pengguna dengan resolusi layar minimal 480px! Jika kamu pengguna mobile, mohon aktifkan tampilan situs desktop terlebih dahulu ya!
         </p>
         <p className="flex gap-1 font-light text-xs text-white">
           Terima kasih atas pengertiannya! <GrEmoji />

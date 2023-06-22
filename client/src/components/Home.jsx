@@ -152,7 +152,7 @@ export const HomeSongContainer = ({ musics }) => {
             />
           </div>
 
-          <p className="text-base text-gray-300 font-semibold my-2">
+          <p className="text-base text-center text-gray-300 font-semibold my-2">
             {data.name.length > 25 ? `${data.name.slice(0, 25)}` : data.name}
             <span className="block text-sm text-color my-1">
               {data.artist}

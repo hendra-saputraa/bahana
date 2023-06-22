@@ -1,12 +1,13 @@
 export const filters = [
-  { id: 2, name: "Hits", value: "hits" },
-  { id: 3, name: "Pops", value: "pop" },
-  { id: 4, name: "New", value: "new" },
-  { id: 5, name: "Hard", value: "hard" },
+  { id: 2, name: "Anime", value: "anime" },
+  { id: 3, name: "Rap", value: "rap" },
+  { id: 4, name: "Chill", value: "chill" },
+  { id: 5, name: "DJ", value: "dj" },
 ];
 
 export const filterByLanguage =[
-  { id: 1, name: "inggris", value: "inggris" },
+  { id: 1, name: "Inggris", value: "inggris" },
   { id: 2, name: "Indonesia", value: "indonesia" },
-  { id: 3, name: "Jawa", value: "jawa" },
+  { id: 3, name: "Jepang", value: "jepang" },
+  { id: 4, name: "Jawa", value: "jawa" },
 ];
